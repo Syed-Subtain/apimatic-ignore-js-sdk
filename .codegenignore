@@ -1,2 +1,2 @@
-testignore/
-main.md
+/testignore
+*.md
