@@ -1,5 +1,4 @@
 {
-  /* this should be deleted */
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
       "module": "esnext",
