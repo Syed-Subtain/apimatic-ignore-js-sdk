@@ -1,5 +1,4 @@
 {
-  /* this should be deleted */
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
       "module": "CommonJS",
@@ -7,4 +6,3 @@
       "declarationDir": "dist/types"
   }
 }
-
