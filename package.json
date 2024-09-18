@@ -1,5 +1,5 @@
 {
-  "version": "3.4.89",
+  "version": "1.1.89",
   "license": "MIT",
   "sideEffects": false,
   "main": "dist/cjs/index.js",
@@ -14,16 +14,17 @@
   },
   "scripts": {
     "build": "rm -rf dist & tsc -p tsconfig.esm.json & tsc -p tsconfig.cjs.json",
-    "test": "jest --coverage --passWithNoTests",
-    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
-    "prepare": "rm -rf dist & tsc -p tsconfig.esm.json & tsc -p tsconfig.cjs.json"
+    "prepare": "rm -rf dist & tsc -p tsconfig.esm.json & tsc -p tsconfig.cjs.json",
+    "lint": "eslint **/*.ts --ignore-path .eslintignore",
+    "lint:fix": "eslint **/*.ts --ignore-path .eslintignore --fix"
   },
   "peerDependencies": {},
   "prettier": {
     "printWidth": 80,
     "semi": true,
     "singleQuote": true,
-    "trailingComma": "es5"
+    "trailingComma": "es5",
+    "quoteProps": "preserve"
   },
   "name": "apimatic-ignore-sdk",
   "description": "This is a description",
@@ -42,10 +43,10 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "@apimatic/authentication-adapters": "^0.5.0",
-    "@apimatic/axios-client-adapter": "^0.2.0",
-    "@apimatic/core": "^0.10.0",
-    "@apimatic/schema": "^0.7.0"
+    "@apimatic/authentication-adapters": "^0.5.4",
+    "@apimatic/axios-client-adapter": "^0.3.4",
+    "@apimatic/core": "^0.10.13",
+    "@apimatic/schema": "^0.7.12"
   },
   "repository": {
     "type": "git",

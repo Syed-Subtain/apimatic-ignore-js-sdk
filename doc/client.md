@@ -5,7 +5,7 @@ The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
-| `environment` | Environment | The API environment. <br> **Default: `Environment.Production`** |
+| `environment` | `Environment` | The API environment. <br> **Default: `Environment.Production`** |
 | `timeout` | `number` | Timeout for API calls.<br>*Default*: `0` |
 | `httpClientOptions` | `Partial<HttpClientOptions>` | Stable configurable http client options. |
 | `unstableHttpClientOptions` | `any` | Unstable configurable http client options. |
@@ -40,7 +40,7 @@ const client = new Client({
 });
 ```
 
-## APIMATIC Calculator Client
+## Apimatic CALCULATOR Client
 
 The gateway for the SDK. This class acts as a factory for the Controllers and also holds the configuration of the SDK.
 

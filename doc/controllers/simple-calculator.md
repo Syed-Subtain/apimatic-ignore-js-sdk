@@ -14,12 +14,10 @@ const simpleCalculatorController = new SimpleCalculatorController(client);
 Calculates the expression using the specified operation.
 
 ```ts
-async getCalculate(
-  operation: OperationTypeEnum,
+async getCalculate(  operation: OperationTypeEnum,
   x: number,
   y: number,
-  requestOptions?: RequestOptions
-): Promise<ApiResponse<OperationTypeEnum>>
+requestOptions?: RequestOptions): Promise<ApiResponse<OperationTypeEnum>>
 ```
 
 ## Parameters
@@ -43,16 +41,13 @@ const collect = {
   x: 222.14,
   y: 165.14
 }
+
 try {
-  // @ts-expect-error: unused variables
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { result, ...httpResponse } = await simpleCalculatorController.getCalculate(collect);
   // Get more response info...
   // const { statusCode, headers } = httpResponse;
 } catch (error) {
   if (error instanceof ApiError) {
-    // @ts-expect-error: unused variables
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const errors = error.result;
     // const { statusCode, headers } = error;
   }
