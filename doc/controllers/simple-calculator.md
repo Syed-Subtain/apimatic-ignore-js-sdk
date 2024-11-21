@@ -14,10 +14,12 @@ const simpleCalculatorController = new SimpleCalculatorController(client);
 Calculates the expression using the specified operation.
 
 ```ts
-async getCalculate(  operation: OperationTypeEnum,
+async getCalculate(
+  operation: OperationTypeEnum,
   x: number,
   y: number,
-requestOptions?: RequestOptions): Promise<ApiResponse<OperationTypeEnum>>
+  requestOptions?: RequestOptions
+): Promise<ApiResponse<OperationTypeEnum>>
 ```
 
 ## Parameters
