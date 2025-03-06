@@ -33,7 +33,7 @@ async getCalculate(
 
 ## Response Type
 
-[`OperationTypeEnum`](../../doc/models/operation-type-enum.md)
+This method returns an [`ApiResponse`](../../doc/api-response.md) instance. The `result` property of this instance returns the response data which is of type [OperationTypeEnum](../../doc/models/operation-type-enum.md).
 
 ## Example Usage
 

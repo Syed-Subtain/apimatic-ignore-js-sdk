@@ -9,15 +9,15 @@ Simple calculator API hosted on APIMATIC
 
 Run the following command from your project directory to install the package from npm:
 
-```ts
-npm install apimatic-ignore-sdk@1.11.14
+```bash
+npm install apimatic-ignore-sdk@9.6.1
 ```
 
-For additional package details, see the [Npm page for the apimatic-ignore-sdk@1.11.14 npm](https://www.npmjs.com/package/apimatic-ignore-sdk/v/1.11.14).
+For additional package details, see the [Npm page for the apimatic-ignore-sdk@9.6.1 npm](https://www.npmjs.com/package/apimatic-ignore-sdk/v/9.6.1).
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/apimatic-ignore-js-sdk/tree/1.11.14/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/apimatic-ignore-js-sdk/tree/9.6.1/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -60,10 +60,13 @@ const client = new Client({
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/Syed-Subtain/apimatic-ignore-js-sdk/tree/1.11.14/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/Syed-Subtain/apimatic-ignore-js-sdk/tree/9.6.1/doc/controllers/simple-calculator.md)
 
-## Classes Documentation
+## Additional Documentation
 
-* [ApiResponse](https://www.github.com/Syed-Subtain/apimatic-ignore-js-sdk/tree/1.11.14/doc/api-response.md)
-* [ApiError](https://www.github.com/Syed-Subtain/apimatic-ignore-js-sdk/tree/1.11.14/doc/api-error.md)
+### Wrappers
+
+* [ApiResponse](https://www.github.com/Syed-Subtain/apimatic-ignore-js-sdk/tree/9.6.1/doc/api-response.md)
+* [HttpRequest](https://www.github.com/Syed-Subtain/apimatic-ignore-js-sdk/tree/9.6.1/doc/http-request.md)
+* [ApiError](https://www.github.com/Syed-Subtain/apimatic-ignore-js-sdk/tree/9.6.1/doc/api-error.md)
 
